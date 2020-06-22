@@ -1,8 +1,9 @@
 .header__links{
-
     display: flex;
     text-decoration: none;
     justify-content: space-between;
+
+	
     margin-top: 46px;
     width: 74px;
 }
