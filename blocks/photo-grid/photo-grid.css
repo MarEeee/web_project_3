@@ -18,7 +18,11 @@
 
 @media screen and (max-width: 767px){
     .photo-grid{
+<<<<<<< HEAD
         width: 288px;
 	grid-gap: 16px; 
+=======
+        width: 288px; 
+>>>>>>> d61ffe34798dae15a1c8ec328ca4546bc344fbfd
     } 
 }
