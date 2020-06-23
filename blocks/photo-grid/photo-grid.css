@@ -9,20 +9,28 @@
     margin: 0 auto;    
 }
 
+@media screen and (max-width: 1279px) {
+  ..photo-grid {
+    grid-gap: 14px;
+  }
+}
+
+
+
 @media screen and (max-width: 1023px){
     .photo-grid{
-        width: 720px;  
+        width: 720px;
+	grid-gap: 16px;  
     }     
 }
 
 
 @media screen and (max-width: 767px){
     .photo-grid{
-<<<<<<< HEAD
+
         width: 288px;
-	grid-gap: 16px; 
-=======
-        width: 288px; 
->>>>>>> d61ffe34798dae15a1c8ec328ca4546bc344fbfd
+	grid-row-gap: 12px;
+
+
     } 
 }
