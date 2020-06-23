@@ -29,7 +29,7 @@
     .photo-grid{
 
         width: 288px;
-	grid-row-gap: 12px;
+	    grid-row-gap: 12px;
 
 
     } 

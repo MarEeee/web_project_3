@@ -4,4 +4,13 @@
     height: 100%;
     flex-direction: column;
     text-decoration: none;
+    z-index: -1;
+   
+  
+  background-color: rgba(0, 0, 0, .3);
+    
+}
+.cover__overlay:hover{
+    
+    background-color: rgba(0, 0, 0, .8);
 }
