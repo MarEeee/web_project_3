@@ -1,10 +1,10 @@
 @import url("./__title/cover__title.css");
 @import url("./__subtitle/cover__subtitle.css");
 @import url("./__overlay/cover__overlay.css");
-/*@import url("./__background/cover__background.css");*/
+@import url("./__background/cover__background.css");
 
 
-.cover{
+/* .cover{
     background-image: url('../../images/cover-route-66.jpg');    
     background-position: center;
     background-repeat: no-repeat;
@@ -34,10 +34,15 @@
 
 @media screen and (max-width: 767px){
     .cover{
-        width: 320px;
-        height: 200px;
+        /* width: 320px;
+        height: 200px; */
+
+/* 
+        margin: 0;
+        width: 100vw;
+        height: calc(0.625*100vw);
     }
     
-}
+} */ 
 
 
